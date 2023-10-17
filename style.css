@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+
+@media (min-width: 500px){
+  
+
+  body {
+    background-image: url('https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+    margin: auto;
+  }
+
+  .junimo {
+    height: 40px;
+    margin:20px;
+  }
+
+  .main-content {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .love-birds {
+    display: flex;
+    
+
+  }
+
+  .love-birds img {
+    height: 100px;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+  }
+  
+}
+
+@media (max-width: 499px){
+
+
+  body {
+    background-image: url('https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    justify-content: center;
+    background-attachment: fixed;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+  }
+
+  .junimo {
+    height: 40px;
+    margin:20px;
+  }
+
+  .main-content {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .love-birds {
+    display: flex;
+
+
+  }
+
+  .love-birds img {
+    height: 100px;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+}
